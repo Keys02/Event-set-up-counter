@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="description" content="Event set up">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Event-set-up</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div id="container">
+            <form id="event-form">
+                <fieldset>
+                    <legend><span><h1>Event Set up</h1></span></legend>
+                    <ul>
+                        <li>
+                            <label for="event-title">Event Title</label>
+                            <input id="event-title" type="text" placeholder="Event name.." required>
+                        </li>
+                        <li>
+                            <label for="event-date">Event Date</label>
+                            <input id="event-date" type="datetime-local" placeholder="Enter event date" required>
+                        </li>
+                        <li>
+                            <input class="submit-btn" type="submit" value="Set up event">
+                        </li>
+                        <li>
+                            <input class="reset-btn" type="reset" value="Reset">
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+        <script src="setup-event.js"></script>
+    </body>
+    </html>

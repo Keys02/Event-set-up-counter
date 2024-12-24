@@ -1,0 +1,100 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    background-image: url("wall.jpg");
+    background-size: 100% 115%;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+div#container{
+    padding: 2em;
+    min-width: 40vw;
+    height: auto;
+    background-color:rgba(0,0,0,0.7);
+    box-shadow:10px 10px 50px grey;
+    border-radius:15px;
+    color:white;
+}
+
+h1{
+    text-align:center;
+    font-size:50px;
+    margin-top:55px;
+}
+
+div.counters {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.counter {
+    padding: 30px;
+    font-size: 95px;
+    margin-bottom: -90px;
+}
+
+p.label {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+ul {
+    padding: 0 2em 0em 2em;
+}
+
+li {
+    margin-top: 1em;
+    list-style-type: none;
+    
+}
+
+label {
+    font-size: 1.3em;
+}
+
+legend {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    height: 2em;
+}
+
+#event-title:focus, #event-date:focus {
+    outline: 2px solid rgb(31, 134, 252);
+}
+
+.submit-btn, .reset-btn {
+    border: none;
+    background-color: rgb(31, 134, 252);
+    color: white;
+    height: 2em;
+}
+
+.submit-btn:hover, .reset-btn:hover {
+    background-color: rgb(0, 117, 250);
+    cursor: pointer;
+}
+

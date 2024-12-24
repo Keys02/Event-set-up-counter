@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="description" content="Event counter">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Event-set-up</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div id="container">
+            <h1 class="event"></h1>
+
+            <div class="counters">
+                <div class="count_label">
+                    <div class="counter days_counter">00</div>
+                    <p class=label>Day</p>
+                </div>
+                <div class="count_label">
+                    <div class="counter hours_counter">00</div>
+                    <p class=label>Hour</p>
+                </div>
+                <div class="count_label">
+                    <div class="counter minutes_counter">00</div>
+                    <p class=label>Minute</p>
+                </div>
+                <div class="count_label">
+                    <div class="counter seconds_counter">00</div>
+                    <p class=label>Second</p>
+                </div>
+            </div> 
+            
+            <form id="new-event">
+                <fieldset>
+                    <input type="submit" class="submit-btn" value="Set up another event">
+                </fieldset>
+            </form>
+        </div>
+        <script src="counter.js"></script>
+    </body>
+    </html>
